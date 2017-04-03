@@ -1,0 +1,11 @@
+# 4 slide switches
+NET "sw<0>" LOC = "L13" ; # switch 0 
+NET "sw<1>" LOC = "L14" ; # switch 1 
+NET "sw<2>" LOC = "H18" ; # switch 2 
+NET "sw<3>" LOC = "N17" ; # switch 3
+NET "btn<0>" LOC = "H13" ;
+NET "btn<1>" LOC = "K17" ;
+NET "clk" LOC = C9 | IOSTANDARD = LVCMOS33 ;
+NET "clk" PERIOD = 20.0ns HIGH 50% ;
+# led 
+NET "carry" LOC = "F12" ; # led 0 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/akash/final/group 18/ass21/test_4bit_isim_beh.exe" -prj "/home/akash/final/group 18/ass21/test_4bit_beh.prj" "work.test_4bit" "work.glbl" 

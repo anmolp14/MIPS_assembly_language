@@ -1,0 +1,10 @@
+Command line:
+   test_4bit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  45206
+
+Wed Mar 29 02:19:18 2017
+
+
+ Elaboration Time: 0.01 sec

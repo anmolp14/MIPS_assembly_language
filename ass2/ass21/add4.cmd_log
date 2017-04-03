@@ -1,0 +1,29 @@
+xst -intstyle ise -ifn "/home/cse/Desktop/ass21/add4.xst" -ofn "/home/cse/Desktop/ass21/add4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 add4.ngc add4.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o add4_map.ncd add4.ngd add4.pcf 
+par -w -intstyle ise -ol high -t 1 add4_map.ncd add4.ncd add4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml add4.twx add4.ncd -o add4.twr add4.pcf 
+bitgen -intstyle ise -f add4.ut add4.ncd 
+xst -intstyle ise -ifn "/home/cse/Desktop/ass21/add4.xst" -ofn "/home/cse/Desktop/ass21/add4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc add4.ucf -p xc3s500e-fg320-4 add4.ngc add4.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o add4_map.ncd add4.ngd add4.pcf 
+par -w -intstyle ise -ol high -t 1 add4_map.ncd add4.ncd add4.pcf 
+xst -intstyle ise -ifn "/home/cse/Desktop/ass21/add4.xst" -ofn "/home/cse/Desktop/ass21/add4.syr" 
+xst -intstyle ise -ifn "/home/cse/Desktop/ass21/add4.xst" -ofn "/home/cse/Desktop/ass21/add4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc add4.ucf -p xc3s500e-fg320-4 add4.ngc add4.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o add4_map.ncd add4.ngd add4.pcf 
+par -w -intstyle ise -ol high -t 1 add4_map.ncd add4.ncd add4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml add4.twx add4.ncd -o add4.twr add4.pcf -ucf add4.ucf 
+bitgen -intstyle ise -f add4.ut add4.ncd 
+xst -intstyle ise -ifn "/home/cse/Desktop/ass21/add4.xst" -ofn "/home/cse/Desktop/ass21/add4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc add4.ucf -p xc3s500e-fg320-4 add4.ngc add4.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o add4_map.ncd add4.ngd add4.pcf 
+par -w -intstyle ise -ol high -t 1 add4_map.ncd add4.ncd add4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml add4.twx add4.ncd -o add4.twr add4.pcf -ucf add4.ucf 
+bitgen -intstyle ise -f add4.ut add4.ncd 
+xst -intstyle ise -ifn "/home/cse/Desktop/ass21/add4.xst" -ofn "/home/cse/Desktop/ass21/add4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc add4.ucf -p xc3s500e-fg320-4 add4.ngc add4.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o add4_map.ncd add4.ngd add4.pcf 
+par -w -intstyle ise -ol high -t 1 add4_map.ncd add4.ncd add4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml add4.twx add4.ncd -o add4.twr add4.pcf -ucf add4.ucf 
+bitgen -intstyle ise -f add4.ut add4.ncd 

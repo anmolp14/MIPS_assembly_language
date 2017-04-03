@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/cse/Desktop/ass21/impact.xsl
+OUTFILE=/home/cse/Desktop/ass21/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/cse/Desktop/ass21
+LICENSE=iMPACT
+USER_INFO=iMPACT
