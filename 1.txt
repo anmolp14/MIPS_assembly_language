@@ -1,4 +1,4 @@
-# 1st example from video 
+# 1st example from video test commit
 
 .data 
 L1:	.word 0x2345
