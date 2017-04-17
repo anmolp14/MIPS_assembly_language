@@ -1,7 +1,7 @@
 .data
 .text
 
-.globl main
+ .globl main
 main:
 	li $v0 5
 	syscall
